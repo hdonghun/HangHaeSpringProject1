@@ -7,6 +7,7 @@ public class ApiUtils {
     }
 
     public  static <T> ApiResult<T> error(T data,String msg){
+
         return new ApiResult<>(false, data, msg);
     }
 

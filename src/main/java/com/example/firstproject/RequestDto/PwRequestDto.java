@@ -1,9 +1,5 @@
 package com.example.firstproject.RequestDto;
 
-
-
-
-
 import lombok.Getter;
 
 @Getter
